@@ -4,10 +4,10 @@ import Navbar from "../src/components/Navbar";
 import Hero from "../src/components/Hero";
 import Features from "../src/components/Features";
 import Portfolio from "../src/components/Portfolio";
-import Testimonials from "./components/IntroducingBolt";
+import Testimonials from "./components/about";
 import Footer from "../src/components/Footer";
 import LeadersSection from "./components/LeadersSection";
-import IntroducingBolt from "./components/IntroducingBolt";
+import About from "./components/about";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <LeadersSection/>
       <Portfolio />
       <Features />
-      <IntroducingBolt />
+      <About/>
       <Footer />
     </div>
   );

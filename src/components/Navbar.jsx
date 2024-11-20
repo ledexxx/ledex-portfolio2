@@ -3,7 +3,7 @@ import { FaLaptopCode, FaInfoCircle, FaStar, FaShareAlt, FaDownload } from "reac
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent text-white py-4 fixed top-0 w-full z-50 backdrop-blur-sm">
+    <nav className="bg-transparent text-white py-4 fixed top-0 w-full z-50 backdrop-blur-sm border-b-[0px]">
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <div className="text-2xl font-bold flex items-center">
@@ -18,7 +18,7 @@ const Navbar = () => {
           <li className="flex items-center space-x-2">
             <FaLaptopCode />
             <a
-              href="#features"
+              href="#portfolio"
               className="text-gray-400 hover:text-white transition duration-200 flex items-center space-x-2"
             >
               <span>Portafolio</span>
@@ -27,10 +27,10 @@ const Navbar = () => {
           <li className="flex items-center space-x-2">
             <FaInfoCircle />
             <a
-              href="#how-it-works"
+              href="#about"
               className="text-gray-400 hover:text-white transition duration-200 flex items-center space-x-2"
             >
-              <span>Introducción</span>
+              <span>Acerca de mi</span>
             </a>
           </li>
           <li className="flex items-center space-x-2">
