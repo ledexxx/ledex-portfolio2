@@ -8,23 +8,23 @@ const Hero = () => {
     >
       <div className="text-center">
         <h1 className="text-6xl font-extrabold leading-tight mb-4">
-          Design work, <br /> the efficient way
+          Diseño, <br /> y programación
         </h1>
         <p className="text-gray-400 text-lg mb-6">
-          Innovative design solutions for technology firms and emerging
-          businesses weary of the typical aesthetic methodology. Arriving
-          shortly.
+        Hola, soy Leonel Delgado, diseñador gráfico y desarrollador web. Transformo tus ideas en experiencias <br />
+        visuales cautivadoras. También estoy aprendiendo Java para ampliar mis habilidades técnicas. <br /> Explora mi trabajo
+         y descubre cómo puedo ayudarte a dar vida a tus proyectos.
         </p>
 
         {/* Email Notification Form */}
         <div className="flex justify-center items-center">
           <input
-            type="email"
-            placeholder="name@email.com"
+            type="Nombre"
+            placeholder="nombre@email.com"
             className="bg-gray-800 text-gray-300 rounded-full px-6 py-3 w-64 focus:outline-none focus:ring-2 focus:ring-gray-500"
           />
           <button className="ml-4 bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:brightness-110 transition duration-200">
-            Get notified
+            Contáctame
           </button>
         </div>
       </div>

@@ -15,8 +15,8 @@ function App() {
       <Navbar/>
       <Hero />
       <LeadersSection/>
-      <Features />
       <Portfolio />
+      <Features />
       <IntroducingBolt />
       <Footer />
     </div>
